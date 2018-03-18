@@ -1,3 +1,17 @@
+/********************************************************************************************************************
+                                         main Implementation
+*********************************************************************************************************************
+*
+*           AUTHOR: Anass KAZIZ (kaziz.anas@gmail.com)
+*           FILENAME: main.cpp
+*           LAST MODIFIED: 16/02/2018
+*           TARGET: MK64FN1M0VDC12 (CPU: ARM® Cortex®-M4 32-bit core)
+*           COMPILER: MBED
+*
+*           Some parts of this code have been ispired from the Hexiwear platform (https://os.mbed.com/platforms/Hexiwear/).
+*           The algorithm of Heart rate calculation has been taken from MAX30102 code, which was developed by Maxim Inc.
+*
+*********************************************************************************************************************/
 #include "mbed.h"
 #include "Hexi_KW40Z.h"
 #include "Hexi_OLED_SSD1351.h"
